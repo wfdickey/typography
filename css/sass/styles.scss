@@ -1,0 +1,12 @@
+@import 'bourbon/bourbon';
+@import 'neat/neat';
+
+@import 'base';
+@import 'variables'; // global variables first so they're accessible 
+@import 'mixins'; // global mixins next to use variables and be accessible to rest of the style sheets
+@import 'typography'; // base typographic system is established next
+@import 'grid'; // grid system functions and mixins will all be defined here
+@import 'global'; // global style rules are defined last so they can use all the previous sheets
+
+
+
